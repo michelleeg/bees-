@@ -7,6 +7,13 @@
     background-color: limegreen;
     cursor: pointer;
 }
+#beehive {
+    position: absolute;
+    left: 405px;
+    width: 90px;
+    height: 90px;
+    background-color: yellow;
+}
 #garden {
     position: absolute;
     width: 900px;
