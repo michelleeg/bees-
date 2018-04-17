@@ -12,6 +12,7 @@
     left: 405px;
     width: 90px;
     height: 90px;
+    top: 5px;
     background-color: yellow;
 }
 #garden {
@@ -22,51 +23,4 @@
     top: 100px;
     background-color: saddlebrown;
 }
-#flower1{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 125px;
-    top: 200px;
-    background-color: deeppink;
-}
-#flower2{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 175px;
-    top: 350px;
-    background-color: deeppink;
-}
-#flower3{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 500px;
-    top: 150px;
-    background-color: deeppink;
-}
-#flower4{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 400px;
-    top: 275px;
-    background-color: deeppink;
-}
-#flower5{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 800px;
-    top: 300px;
-    background-color: deeppink;
-}
-#flower6{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 650px;
-    top: 400px;
-    background-color: deeppink;
-}
+
