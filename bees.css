@@ -15,6 +15,14 @@
     height: 90px;
     top: 5px;
 }
+#ernesto {
+    position:absolute;
+    left: 428px;
+    width: 45px;
+    height: 45px;
+    top: 550px;
+    background-color: black;
+}
 
 #garden {
     position: absolute;
@@ -27,24 +35,18 @@
 
 #flower1 {
     position: absolute;
-    width: 50px;
-    height: 50px;
     left: 125px;
     top: 200px;
 }
 
 #flower2 {
     position: absolute;
-    width: 50px;
-    height: 50px;
     left: 175px;
     top: 350px;
 }
 
 #flower3 {
     position: absolute;
-    width: 50px;
-    height: 50px;
     left: 500px;
     top: 150px;
 
@@ -52,8 +54,6 @@
 
 #flower4 {
     position: absolute;
-    width: 50px;
-    height: 50px;
     left: 400px;
     top: 275px;
 
@@ -61,8 +61,6 @@
 
 #flower5 {
     position: absolute;
-    width: 50px;
-    height: 50px;
     left: 800px;
     top: 300px;
 
@@ -70,8 +68,6 @@
 
 #flower6 {
     position: absolute;
-    width: 50px;
-    height: 50px;
     left: 650px;
     top: 400px;
 
