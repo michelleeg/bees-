@@ -1,0 +1,25 @@
+#container {
+    position: relative;
+    left: 100px;
+    width: 900px;
+    height: 600px;
+    border: 5px black solid;
+    background-color: limegreen;
+    cursor: pointer;
+}
+#garden {
+    position: absolute;
+    width: 900px;
+    height: 400px;
+    left: 0px;
+    top: 100px;
+    background-color: saddlebrown;
+}
+#flower1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 125px;
+    top: 200px;
+    background-color: deeppink;
+}
