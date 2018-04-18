@@ -15,8 +15,9 @@
     height: 90px;
     top: 5px;
 }
+
 #ernesto {
-    position:absolute;
+    position: absolute;
     left: 428px;
     width: 45px;
     height: 45px;
@@ -71,8 +72,26 @@
     top: 400px;
 
 }
-#pesticide1 {
-    position:absolute;
-    left: 0px;
+
+@keyframes pesticide1 {
+    0% {
+        left: 0px;
+        top: 110px;
+    }
+    100% {
+        left: 775px;
+        top: 110px;
+    }
+}
+
+#cloud1 {
+    position: absolute;
     top: 110px;
+    left: 0px;
+    animation-name: pesticide1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function:ease-in-out;
+
 }
