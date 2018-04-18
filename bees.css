@@ -101,36 +101,3 @@
     animation-timing-function: ease-in-out;
 
 }
-#cloud2 {
-    position: absolute;
-    top: 202.5px;
-    left: 775px;
-    animation-name: pesticide2;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: ease-in-out;
-
-}
-#cloud3 {
-    position: absolute;
-    top: 302.5px;
-    left: 0px;
-    animation-name: pesticide1;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: ease-in-out;
-
-}
-#cloud4 {
-    position: absolute;
-    top: 402.5px;
-    left: 775px;
-    animation-name: pesticide2;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: ease-in-out;
-
-}
