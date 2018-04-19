@@ -7,6 +7,7 @@
     background-color: limegreen;
     cursor: pointer;
 }
+
 #beehive {
     position: absolute;
     left: 405px;
@@ -22,6 +23,15 @@
     left: 0px;
     top: 100px;
     background-color: saddlebrown;
+}
+
+.flowerButtons {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.flower:hover {
+    transform: scale(1.25);
 }
 
 #flower1 {
@@ -63,6 +73,38 @@
     top: 300px;
 
 }
+
+#flowerButton1 {
+    left: 125px;
+    top: 100px;
+}
+
+#flowerButton2 {
+    left: 175px;
+    top: 250px;
+}
+
+#flowerButton3 {
+    left: 500px;
+    top: 50px;
+}
+
+#flowerButton4 {
+    left: 400px;
+    top: 175px;
+}
+
+#flowerButton5 {
+    left: 800px;
+    top: 200px;
+}
+
+#flowerButton6 {
+    left: 650px;
+    top: 300px;
+}
+
+
 #ernesto {
     position: absolute;
     left: 428px;
@@ -81,6 +123,7 @@
         left: 775px;
     }
 }
+
 @keyframes pesticide2 {
     0% {
         left: 775px;
@@ -114,6 +157,7 @@
     animation-timing-function: ease-in-out;
 
 }
+
 #cloud3 {
     position: absolute;
     top: 202.5px;
@@ -125,6 +169,7 @@
     animation-timing-function: ease-in-out;
 
 }
+
 #cloud4 {
     position: absolute;
     top: 302.5px;
@@ -136,6 +181,3 @@
     animation-timing-function: ease-in-out;
 
 }
-
-
-
