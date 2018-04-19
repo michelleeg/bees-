@@ -69,6 +69,7 @@
     width: 45px;
     height: 45px;
     top: 530px;
+    transition: transform .1s, background .2s, left .2s ease-out, top .2s ease-out;
 }
 
 
