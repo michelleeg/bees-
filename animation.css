@@ -15,7 +15,23 @@
     height: 90px;
     top: 5px;
 }
+#score {
+    position:absolute;
+    width: 105px;
+    height: 30px;
+    top: 0px;
+    left: 790px;
+    border: 5px black solid;
 
+}
+#points {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    top: 0px;
+    left: 840px;
+    border-color: 5px transparent;
+}
 #garden {
     position: absolute;
     width: 900px;
@@ -112,6 +128,7 @@
     height: 45px;
     top: 530px;
     transition: transform .1s, background .2s, left .2s ease-out, top .2s ease-out;
+    background-color: transparent;
 }
 
 
