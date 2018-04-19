@@ -1,12 +1,9 @@
 var container = {x: 100, y: 0, width: 900, height: 600};
 var ernesto = {x: 428, y: 530, width: 45, height: 45};
-var flower1 = {x: 125, y: 100, width: 45, height: 45};
-var flower2 = getElementById("flower2");
-var flower3 = getElementById("flower3");
-var flower4 = getElementById("flower4");
-var flower5 = getElementById("flower5");
-var flower6 = getElementById("flower6");
-var cloud1 = getElementById("cloud1");
-var cloud2 = getElementById("cloud2");
-var cloud3 = getElementById("cloud3");
-var cloud4 = getElementById("cloud4");
+var cloud1 = {x: 2.5, y: 0, width: 120, height: 90};
+var cloud2 = {x: 102.5, y: 775, width: 120, height: 90};
+var cloud3 = {x: 202.5, y: 0, width: 120, height: 90};
+var cloud4 = {x: 302.5, y: 775, width: 120, height: 90};
+
+if (ernesto.x < cloud1x + cloud1.width && ernesto.x + ernesto.width > cloud1.x && ernesto.y < cloud1.y + cloud1.height && ernesto.height + ernesto.y > cloud1.y) {
+}
