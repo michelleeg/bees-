@@ -1,6 +1,6 @@
-var container = getElementById("container");
-var ernesto = getElemenById("ernesto");
-var flower1 = getElementById("flower1");
+var container = {x: 100, y: 0, width: 900, height: 600};
+var ernesto = {x: 428, y: 530, width: 45, height: 45};
+var flower1 = {x: 125, y: 100, width: 45, height: 45};
 var flower2 = getElementById("flower2");
 var flower3 = getElementById("flower3");
 var flower4 = getElementById("flower4");
