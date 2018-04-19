@@ -7,21 +7,12 @@
     background-color: limegreen;
     cursor: pointer;
 }
-
 #beehive {
     position: absolute;
     left: 405px;
     width: 90px;
     height: 90px;
     top: 5px;
-}
-
-#ernesto {
-    position: absolute;
-    left: 428px;
-    width: 45px;
-    height: 45px;
-    top: 530px;
 }
 
 #garden {
@@ -36,42 +27,50 @@
 #flower1 {
     position: absolute;
     left: 125px;
-    top: 200px;
+    top: 100px;
 }
 
 #flower2 {
     position: absolute;
     left: 175px;
-    top: 350px;
+    top: 250px;
 }
 
 #flower3 {
     position: absolute;
     left: 500px;
-    top: 150px;
+    top: 50px;
 
 }
 
 #flower4 {
     position: absolute;
     left: 400px;
-    top: 275px;
+    top: 175px;
 
 }
 
 #flower5 {
     position: absolute;
     left: 800px;
-    top: 300px;
+    top: 200px;
 
 }
 
 #flower6 {
     position: absolute;
     left: 650px;
-    top: 400px;
+    top: 300px;
 
 }
+#ernesto {
+    position: absolute;
+    left: 428px;
+    width: 45px;
+    height: 45px;
+    top: 530px;
+}
+
 
 @keyframes pesticide1 {
     0% {
@@ -90,9 +89,10 @@
     }
 }
 
+
 #cloud1 {
     position: absolute;
-    top: 102.5px;
+    top: 2.5px;
     left: 0px;
     animation-name: pesticide1;
     animation-duration: 1.5s;
@@ -101,3 +101,40 @@
     animation-timing-function: ease-in-out;
 
 }
+
+#cloud2 {
+    position: absolute;
+    top: 102.5px;
+    left: 775px;
+    animation-name: pesticide2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+
+}
+#cloud3 {
+    position: absolute;
+    top: 202.5px;
+    left: 0px;
+    animation-name: pesticide1;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+
+}
+#cloud4 {
+    position: absolute;
+    top: 302.5px;
+    left: 775px;
+    animation-name: pesticide2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+
+}
+
+
+
