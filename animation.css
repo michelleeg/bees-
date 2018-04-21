@@ -5,7 +5,7 @@
     height: 600px;
     border: 5px black solid;
     background-color: limegreen;
-    cursor: pointer;
+    cursor: none;
 }
 
 #beehive {
@@ -46,10 +46,13 @@
     border-color: white;
     width: 70px;
     height: 70px;
+    background-image: url(images/bee-animated-gif-17.gif);
+    cursor: none;
 }
 
 .flower:hover {
     transform: scale(1.25);
+    cursor: none;
 }
 
 #flower1 {
@@ -131,6 +134,7 @@
     top: 530px;
     transition: transform .1s, background .2s, left .2s ease-out, top .2s ease-out;
     background-color: transparent;
+    pointer-events: none;
 }
 
 
