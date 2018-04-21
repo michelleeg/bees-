@@ -28,7 +28,7 @@
     position: absolute;
     width: 60px;
     height: 30px;
-    top: 0px;
+    top: 5px;
     left: 840px;
     border-color: 5px transparent;
 }
@@ -43,7 +43,9 @@
 
 .flowerButtons {
     background-color: transparent;
-    border-color: transparent;
+    border-color: white;
+    width: 70px;
+    height: 70px;
 }
 
 .flower:hover {
