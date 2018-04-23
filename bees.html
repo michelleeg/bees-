@@ -9,16 +9,33 @@
 <body>
     <div id="container">
         <div id="rules" class="modal">
-            <div class="rulesContent">
+            <div class="modalContent" id="rulesContent">
                 <span class="close"></span>
                 <h2> Rules of the Game</h2>
             </div>
-            <div class="rulesBody">
+            <div class="modalBody" id="rulesBody">
                 <p><img src="images/bee-animated-gif-17.gif" width="70" height="70"> Hi! My name is Ernesto! I love flowers! Can you help me pollinate as many flowers as I can?</p>
                 <p>This is how you play:<br> - use the mouse to move Ernesto <br> - click on the flowers to pollinate them <br> - when you pollinate all six flowers, go to the beehive to drop off the pollen and collect 50 bonus points. Then go back out to pollinate more flowers!<br> - watch out for clouds of pesticides! If Ernesto runs into a cloud, he will die and the game will be over</p>
             </div>
-            <div class="rulesFooter">
+            <div class="modalFooter" id="rulesFooter">
                 <button class="playButton" id="startGameButton"> Play Game</button>
+            </div>
+        </div>
+        <div id="endGame" class="modal" style="display: none">
+            <div class="modalContent" id="endGameContent">
+                <span class="close"></span>
+                <h2> Game Over! </h2>
+            </div>
+            <div class="modalBody" id="endGameBody">
+                <p><img src="images/bee-animated-gif-17.gif" width="70" height="70">
+                Oh no! Ernesto crashed into a cloud of pesticides and died! Pesticides are very harmful to bees and are one of the reasons that bee populations are dying at alarming rates. Bees are extremely important pollinators for economic and ecological reasons. We rely on them to pollinate our crops that we need for food and other products. They also help sustain ecosystems and pollinate plants that provide habitats and food for other species. Without them, our daily live would drastically change. Visit these websites below to see how you can help. <br>
+                <a href="https://thehoneybeeconservancy.org/how-to-save-the-bees/">The Honeybee Conservacy</a><br>
+                <a href= "https://news.nationalgeographic.com/2015/05/150524-bees-pollinators-animals-science-gardens-plants/">National Geographic</a><br>
+                <a href="https://www.buzzaboutbees.net/save-the-bees.html">Save the Bees</a><br>
+                </p>
+            </div>
+            <div class="modalFooter" id="endGameFooter">
+                <button class="playButton" id="playAgainButton"> Play Again </button>
             </div>
         </div>
         <div id="beehive">
