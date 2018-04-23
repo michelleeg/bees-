@@ -21,6 +21,6 @@ function ernestoPosition(event) {
     beeposition.textContent = mouseX + ", " + mouseY;
 }
 
-function detectCollision(event) {
-    va
+function getPosition(cloud1) {
+    var p
 }
