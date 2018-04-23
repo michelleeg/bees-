@@ -11,6 +11,7 @@ function moveErnesto(event) {
     ernestoTheBee.style.top = yPosition + "px";
 }
 
+
 var playButton = document.getElementById("startGameButton");
 var rulesModal = document.getElementById("rules");
 
@@ -29,8 +30,6 @@ var startingPoints = Number(document.getElementById('points').innerHTML);
 function playAgainModal() {
     endGameModal.style.display = "block";
 }
-
-
 function closeGameOverModal() {
     endGameModal.style.display = "none";
     startingPoints = 0;
