@@ -1,7 +1,7 @@
-.modal {
-    position: fixed;
-    left: 250px;
-    top: 110px;
+#rules {
+    position: absolute;
+    left: 150px;
+    top: 97px;
     width: 600px;
     height: 400px;
     border: 5px black solid;
@@ -9,7 +9,7 @@
     z-index: 3;
     cursor: auto;
 }
-.rulesContent {
+#rulesContent {
     background-color: royalblue;
     width: 400px;
     height: 50px;
@@ -19,12 +19,44 @@
     border-color: transparent;
     width: 80%;
 }
-.rulesBody {
+#rulesBody {
     position: absolute;
     background-color: transparent;
     border-color: transparent;
 }
-.rulesFooter {
+#rulesFooter {
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+
+}
+#endGame {
+    position: absolute;
+    left: 150px;
+    top: 97px;
+    width: 600px;
+    height: 400px;
+    border: 5px black solid;
+    background-color: royalblue;
+    z-index: 3;
+    cursor: auto;
+}
+#endGameContent {
+    background-color: royalblue;
+    width: 400px;
+    height: 50px;
+    left: 350px;
+    top: 130px;
+    padding: 20px;
+    border-color: transparent;
+    width: 80%;
+}
+#endGameBody {
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+}
+#endGameFooter {
     position: absolute;
     background-color: transparent;
     border-color: transparent;
