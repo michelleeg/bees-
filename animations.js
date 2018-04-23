@@ -10,3 +10,11 @@ function moveErnesto(event) {
 	ernestoTheBee.style.left = xPosition + "px";
 	ernestoTheBee.style.top = yPosition + "px";
 }
+
+var playButton = document.getElementById("startGameButton");
+var rulesModal = document.getElementById("rules");
+
+function closeRulesModal() {
+    rulesModal.style.display = "none";
+}
+playButton.addEventListener("click", closeRulesModal);

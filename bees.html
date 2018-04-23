@@ -8,6 +8,19 @@
 
 <body>
     <div id="container">
+        <div id="rules" class="modal">
+            <div class="rulesContent">
+                <span class="close"></span>
+                <h2> Rules of the Game</h2>
+            </div>
+            <div class="rulesBody">
+                <p><img src="images/bee-animated-gif-17.gif" width="70" height="70"> Hi! My name is Ernesto! I love flowers! Can you help me pollinate as many flowers as I can?</p>
+                <p>This is how you play:<br> - use the mouse to move Ernesto <br> - click on the flowers to pollinate them <br> - when you pollinate all six flowers, go to the beehive to drop off the pollen and collect 50 bonus points. Then go back out to pollinate more flowers!<br> - watch out for clouds of pesticides! If Ernesto runs into a cloud, he will die and the game will be over</p>
+            </div>
+            <div class="rulesFooter">
+                <button class="playButton" id="startGameButton"> Play Game</button>
+            </div>
+        </div>
         <div id="beehive">
             <img src=images/beehive.png width="90" height="90"></div>
         <div id="score" type="text"> Score:</div>
@@ -35,8 +48,7 @@
                 <img src="images/pesticideclouds.png" width="120" height="90"></div>
         </div>
         <div id="ernesto">
-            <img src=images/bee-animated-gif-17.gif width="65" height="65">
-
+            <img src=images/bee-animated-gif-17.gif width="65" height="65" id="ernestoImage">
         </div>
         <script src="animations.js"></script>
         <script src="taelynn.js"></script>

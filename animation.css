@@ -1,3 +1,44 @@
+.modal {
+    position: fixed;
+    left: 250px;
+    top: 110px;
+    width: 600px;
+    height: 400px;
+    border: 5px black solid;
+    background-color: royalblue;
+    z-index: 3;
+    cursor: auto;
+}
+.rulesContent {
+    background-color: royalblue;
+    width: 400px;
+    height: 50px;
+    left: 350px;
+    top: 130px;
+    padding: 20px;
+    border-color: transparent;
+    width: 80%;
+}
+.rulesBody {
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+}
+.rulesFooter {
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+
+}
+.playButton {
+    position: absolute;
+    background-color: darkgoldenrod;
+    border-color: darkorange;
+    height: 45px;
+    width: 90px;
+    left: 255px;
+    top: 250px;
+}
 #container {
     position: relative;
     left: 100px;
@@ -133,8 +174,9 @@
     height: 45px;
     top: 530px;
     transition: transform .1s, background .2s, left .2s ease-out, top .2s ease-out;
-    background-color: transparent;
+    background-image: url(images/bee-animated-gif-17.gif);
     pointer-events: none;
+    z-index: 1;
 }
 
 
