@@ -14,16 +14,29 @@ var movemouse = document.getElementById("movemouse");
 //container.addEventListener("mousemove", moveErnesto);
 var beeposition = document.getElementById("beeposition");
 container.addEventListener("mousemove", ernestoPosition);
-var cloud1position = document.getElementById("cloud1");
+var cloud1 = document.getElementById("cloud1");
+var cloud1x = 2.5;
+var cloud1y = 0;
+var id = setInterval(frame, 5);
+
 
 function ernestoPosition(event) {
     var mouseX = event.clientX;
     var mouseY = event.clientY;
     beeposition.textContent = mouseX + ", " + mouseY;
-    var cloud1x = cloud1.style.top;
-    cloud1.textcontent = cloud1x;
+    /*var cloud1x = cloud1.style.top;
+    var cloud1y = cloud2.style.top;
+    cloud1.textcontent = cloud1x + ", " + mouseY;*/
 }
 
-function getPosition(cloud1) {
+function frame() {
+    if (cloud1x == 120) {
+        clearInterval(id);
+    }
+    else {
+        cloud1y++;
+        cloud1.style.top = cloud1x + 'px';
+        cloud1.style.top = cloud1y + 'px';
 
+    }
 }
