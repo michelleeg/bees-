@@ -27,9 +27,11 @@ playButton.addEventListener("click", closeRulesModal);
 var playAgainButton = document.getElementById("playAgainButton");
 var endGameModal = document.getElementById("endGame");
 var startingPoints = Number(document.getElementById('points').innerHTML);
+
 function playAgainModal() {
     endGameModal.style.display = "block";
 }
+
 function closeGameOverModal() {
     endGameModal.style.display = "none";
     startingPoints = 0;
