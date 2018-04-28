@@ -17,7 +17,7 @@
                 <p><img src="images/bee-animated-gif-17.gif" width="70" height="70"> Hi! My name is Ernesto! I love flowers! Can you help me pollinate as many flowers as I can?</p>
                 <p>This is how you play:<br> - use the mouse to move Ernesto <br> - click on the flowers to pollinate them <br> - when you pollinate all six flowers, go to the beehive to drop off the pollen and collect 50 bonus points. Then go back out to pollinate more flowers!<br> - watch out for clouds of pesticides! If Ernesto runs into a cloud, he will die and the game will be over</p>
             </div>
-            <button onclick="myMove()" class="playButton" id="startGameButton"> Play Game</button>
+            <button class="playButton" id="startGameButton"> Play Game</button>
         </div>
         <div id="endGame" class="modal" style="display: none">
             <div class="modalContent" id="endGameContent">
@@ -32,7 +32,7 @@
                 <a href="https://www.buzzaboutbees.net/save-the-bees.html" target="_blank">Save the Bees</a><br>
                 </p>
             </div>
-            <button onclick="myMove()" class="playButton" id="playAgainButton"> Play Again </button>
+            <button class="playButton" id="playAgainButton"> Play Again </button>
         </div>
         <div id="beehive">
             <img src=images/beehive.png width="90" height="90"></div>
@@ -40,6 +40,7 @@
         <div id="points"> 0 </div>
         <div id="garden">
             <div id="beeposition"></div>
+            <div id="cloud1position"></div>
             <div class="flower" id="flower1">
                 <button class="flowerButtons" id="flowerButton1"> <img src=images/pinkyellowflower.png width="70" height="70"></button></div>
             <div class="flower" id="flower2">
