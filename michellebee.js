@@ -23,21 +23,6 @@ var cloud3_current_pos = 0;
 var cloud4position = document.getElementById("cloud4position")
 var cloud4_current_pos = 0;
 
-var playAgainButton = document.getElementById("playAgainButton");
-var endGameModal = document.getElementById("endGame");
-var startingPoints = Number(document.getElementById('points').innerHTML);
-
-function playAgainModal() {
-    endGameModal.style.display = "block";
-}
-
-function closeGameOverModal() {
-    endGameModal.style.display = "none";
-    startingPoints = 0;
-    document.getElementById('points').innerHTML = startingPoints;
-}
-playAgainButton.addEventListener("click", closeGameOverModal);
-playAgainButton.addEventListener("click", myMove(event));
 
 function ernestoPosition(event) {
     var mouseX = event.clientX;
@@ -45,14 +30,14 @@ function ernestoPosition(event) {
     if ((mouseX > cloud1_current_pos && (mouseX < cloud1_current_pos + 120)) && (mouseY > 100 && mouseY < 190)) {
         playAgainModal();
     }
-    if ((mouseX > cloud2_current_pos && (mouseX < cloud2_current_pos + 120)) && (mouseY > 100 && mouseY < 190)) {
+   if ((mouseX > cloud2_current_pos && (mouseX < cloud2_current_pos + 120)) && (mouseY > 200 && mouseY < 290)) {
         playAgainModal();
     }
     //cloud1position.textContent = "[X]";
-    if ((mouseX > cloud3_current_pos && (mouseX < cloud3_current_pos + 120)) && (mouseY > 100 && mouseY < 190)) {
+    if ((mouseX > cloud3_current_pos && (mouseX < cloud3_current_pos + 120)) && (mouseY > 300 && mouseY < 390)) {
         playAgainModal();
     }
-    if ((mouseX > cloud4_current_pos && (mouseX < cloud4_current_pos + 120)) && (mouseY > 100 && mouseY < 190)) {
+    if ((mouseX > cloud4_current_pos && (mouseX < cloud4_current_pos + 120)) && (mouseY > 400 && mouseY < 490)) {
         playAgainModal();
     }
 
@@ -62,7 +47,7 @@ function myMove(event) {
     var max = 800;
     var cloud1_pos = 0;
     var cloud1_sop = max;
-    var cloud1_elem = document.getElementById("cloud1");
+    var cloud1_elem = (document.getElementById("cloud1"));
     var cloud2_pos = 775;
     var cloud2_sop = max;
     var cloud2_elem = document.getElementById("cloud2");
@@ -131,3 +116,19 @@ function myMove(event) {
         }
     }
 }
+
+var playAgainButton = document.getElementById("playAgainButton");
+var endGameModal = document.getElementById("endGame");
+var startingPoints = Number(document.getElementById('points').innerHTML);
+
+function playAgainModal() {
+    endGameModal.style.display = "block";
+}
+
+function closeGameOverModal() {
+    endGameModal.style.display = "none";
+    startingPoints = 0;
+    document.getElementById('points').innerHTML = startingPoints;
+}
+playAgainButton.addEventListener("click", closeGameOverModal);
+playAgainButton.addEventListener("click", myMove(event));
